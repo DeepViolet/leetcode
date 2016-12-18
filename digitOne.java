@@ -35,7 +35,7 @@ public class digitOne {
 				long lowerNum = 0;
 				long sum = 0;
 				while (n / factorNum > 0) {
-					highNum = n / (factorNum * 10);  //Ô½½ç
+					highNum = n / (factorNum * 10);  //è¶Šç•Œ
 					currentNum = (n / factorNum)%10;
 					lowerNum = n - (n / factorNum) * factorNum;
 					switch ((int)currentNum) {
